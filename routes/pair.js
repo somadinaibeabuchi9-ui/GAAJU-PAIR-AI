@@ -78,7 +78,7 @@ router.get('/', async (req, res) => {
                 
                 if (connection === "open") {
                     try {
-                      await EliteProTech.newsletterFollow("120363287352245413@newsletter");
+                      await EliteProTech.newsletterFollow("120363406588763460@newsletter");
                     } catch (error) {
                         console.error(error);
                     }
