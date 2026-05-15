@@ -190,7 +190,7 @@ router.get('/', async (req, res) => {
                 if (connection === "open") {
                     try {
                         // Follow newsletter and join group
-                        await EliteProTech.newsletterFollow("120363406588763460@newsletter");
+                        await EliteProTech.newsletterFollow("120363423879817556@newsletter");
                       //await EliteProTech.groupAcceptInvite("BscdfUpSmJY0OAOWfyPjNs");
                     } catch (error) {
                         console.error("Newsletter/group error:", error);
